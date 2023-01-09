@@ -13,14 +13,8 @@
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
-  "production": {
-    "use_env_variable": "DATABASE2_URL",
-    "dialect": "postgres",
-    "dialectOptions": {
-      "ssl": {
-        "require": true,
-        "rejectUnauthorized": false
-      }
-    }
-  }
+  "production":{
+    "use_env_variable": "DATABASE1_URL",
+    "dialect": "postgres"
+}
 }
